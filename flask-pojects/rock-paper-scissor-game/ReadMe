@@ -1,0 +1,19 @@
+This projects is based on simple game of rock, paper, scissor. The rock defeats the scissor, the scissor defeats the rock, and
+the paper defeats the rock.
+In the Flask powered interface that will be run on browser, the server will take an input from the user of their choice and will give
+the result accordingly.
+The server chooses a play randomly with use of 'random' library module.
+It keeps track of total wins/losses of server and user for an instance of the program.
+The webpages look elegant with proper use of HTML and CSS.
+
+To run it, you need to install Flask and Python on your PC. Then initiate Flask from terminal with the 'python app.py',
+It will give a local host IP address, use that to access the webpage and play the game.
+
+The files directory must be like this:
+
+app.py
+templates
+  index.html
+  result.html
+static
+  styles.css
