@@ -8,6 +8,7 @@ The webpages look elegant with proper use of HTML and CSS.
 
 Components of WebApp:
   Flask Libraries
+  HTTP GET/POST
   I/O
   Data Storage for an instance
   Validation
@@ -23,5 +24,6 @@ The files directory must be like this:
 app.py
 templates
   index.html
+  result.html
 static
   styles.css
