@@ -6,6 +6,7 @@ user can end the game or play again.
 
 Components of WebApp:
   Flask Libraries
+  HTTP GET/POST Methods
   I/O
   Data Storage for an instance
   Validation
@@ -17,7 +18,6 @@ static
   styles.css
 templates
   index.html
-  result.html
 app.py
 
 
