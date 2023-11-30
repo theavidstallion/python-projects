@@ -23,6 +23,5 @@ The files directory must be like this:
 app.py
 templates
   index.html
-  result.html
 static
   styles.css
