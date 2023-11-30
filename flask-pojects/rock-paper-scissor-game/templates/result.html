@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Game Result</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Sofia&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <h1>Game Result</h1>
+    <p>Your choice: {{ choice }}</p>
+    <p>Computer's choice: {{ computer_choice }}</p>
+    <p>{{ result }}</p>
+    <p>User wins: {{ user_wins }}</p>
+    <p>Computer wins: {{ computer_wins }}</p>
+    <p><a href="/">Play again</a></p>
+    <p><a href="/reset">Reset win/loss counts</a></p>
+</body>
+</html>
