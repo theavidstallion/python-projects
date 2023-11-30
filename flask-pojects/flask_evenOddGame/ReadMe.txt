@@ -17,7 +17,7 @@ static
   styles.css
 templates
   index.html
-  results.html
+  result.html
 app.py
 
 
