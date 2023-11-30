@@ -1,0 +1,32 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Sofia', sans-serif;
+    color: blue;
+}
+
+a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #3498db;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #2980b9;
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
