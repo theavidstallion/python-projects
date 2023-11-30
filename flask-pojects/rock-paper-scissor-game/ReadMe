@@ -6,7 +6,16 @@ The server chooses a play randomly with use of 'random' library module.
 It keeps track of total wins/losses of server and user for an instance of the program.
 The webpages look elegant with proper use of HTML and CSS.
 
-To run it, you need to install Flask and Python on your PC. Then initiate Flask from terminal with the 'python app.py',
+Components of WebApp:
+  Flask Libraries
+  I/O
+  Data Storage for an instance
+  Validation
+  Error Exception
+  Control Flow
+
+
+To run the game, you need to install Flask and Python on your PC. Then initiate Flask from terminal with the 'python app.py',
 It will give a local host IP address, use that to access the webpage and play the game.
 
 The files directory must be like this:
