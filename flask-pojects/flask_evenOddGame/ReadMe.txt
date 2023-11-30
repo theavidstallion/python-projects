@@ -4,12 +4,20 @@ The game is played on browser with an easy user-interface. The web app generates
 The web app then validates the input if it's right or wrong, and then gives the result while storing the count for an instance of the web app. After that, the
 user can end the game or play again.
 
+Components of WebApp:
+  Flask Libraries
+  I/O
+  Data Storage for an instance
+  Validation
+  Error Exception
+  Control Flow
 
 Heirarchy of files:
 static
   styles.css
 templates
   index.html
+  results.html
 app.py
 
 
